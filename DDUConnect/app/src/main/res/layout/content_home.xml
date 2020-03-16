@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Home"
+    tools:showIn="@layout/app_bar_home">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="110dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/image_tech"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="-5dp"
+
+                        android:layout_weight="1"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textAlignment="center"
+                        app:srcCompat="@drawable/tech" />
+
+                    <LinearLayout
+                        android:id="@+id/tech_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/tech_it_easy"
+                            android:layout_width="110dp"
+
+                            android:layout_marginLeft="-5dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:onClick="categoryCall"
+
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            app:srcCompat="@drawable/tech_it_easy" />
+
+                        <ImageView
+                            android:id="@+id/dentistry_around_the_globe"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_marginLeft="-5dp"
+                            android:layout_weight="1"
+                            android:onClick="categoryCall"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/dentistry" />
+
+                        <ImageView
+                            android:id="@+id/pharmacy_then_now"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_marginLeft="-5dp"
+                            android:layout_weight="1"
+                            android:onClick="categoryCall"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/pharmacy" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/image_non_tech"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="-5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        app:srcCompat="@drawable/non_tech" />
+
+                    <LinearLayout
+                        android:id="@+id/non_tech_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/connect_ions"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:onClick="categoryCall"
+                            android:layout_marginLeft="-5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            app:srcCompat="@drawable/connections" />
+
+                        <ImageView
+                            android:id="@+id/fiction"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:onClick="categoryCall"
+                            android:layout_marginLeft="-5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            app:srcCompat="@drawable/fiction" />
+
+                        <ImageView
+                            android:id="@+id/open_letter"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:onClick="categoryCall"
+                            android:layout_marginLeft="-5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            app:srcCompat="@drawable/open_letter" />
+
+                        <ImageView
+                            android:id="@+id/verses"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:onClick="categoryCall"
+                            android:layout_marginLeft="-5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            app:srcCompat="@drawable/verses" />
+
+                        <ImageView
+                            android:id="@+id/writers_lounge"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:onClick="categoryCall"
+                            android:layout_marginLeft="-5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            app:srcCompat="@drawable/writers_launge" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/image_more"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="-5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        app:srcCompat="@drawable/more_content" />
+
+                    <LinearLayout
+                        android:id="@+id/more_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        tools:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/alumni_speaks"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:onClick="categoryCall"
+                            android:layout_marginLeft="-5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            app:srcCompat="@drawable/alumni_speakes" />
+
+                        <ImageView
+                            android:id="@+id/ddu_speaks"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:onClick="categoryCall"
+                            android:layout_marginLeft="-5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            app:srcCompat="@drawable/ddu_speakes" />
+
+                        <ImageView
+                            android:id="@+id/hall_of_fame"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:onClick="categoryCall"
+                            android:layout_marginLeft="-5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/sub_cat" />
+
+                        <ImageView
+                            android:id="@+id/interview"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:onClick="categoryCall"
+                            android:layout_marginLeft="-5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            app:srcCompat="@drawable/interview" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/past_year_paper"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="-5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        app:srcCompat="@drawable/past_year_papers" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:text="LATEST ARTICLES"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/rc_view_top5"
+                    app:layout_constraintStart_toStartOf="@+id/rc_view_top5"
+                    app:layout_constraintTop_toTopOf="@+id/rc_view_top5" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rc_view_top5"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </android.support.v7.widget.RecyclerView>
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:text="BUZZ"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/buzz_view_rc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageup"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="-0.6dp"
+            android:foreground="@drawable/path_33"
+            app:srcCompat="@drawable/transperentback" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/no_internet"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout"
+        app:srcCompat="@drawable/ic_wifi"
+        tools:ignore="VectorDrawableCompat" />
+
+</android.support.constraint.ConstraintLayout>

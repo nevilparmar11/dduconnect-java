@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">DDUConnect</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_t_and_c">Privacy Policy</string>
+
+    <string name="menu_editors_desk">From the Editors Desk</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_favourite">Favourite</string>
+    <string name="menu_convocation">Convocation</string>
+    <string name="menu_about_us">About us</string>
+    <string name="menu_contact">Contact</string>\
+    <string name="menu_meet_team">Meet our Team</string>
+    <string name="title_activity_post">Post</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_post_info">PostInfo</string>
+    <string name="editorsdeskcontent">
+        What is that one thought which haunts you when you enter places completely ...</string>
+    <string name="from_the_editors_desk">From The Editors Desk</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">BACK</string>
+    <string name="start">LET\'S START</string>
+
+    <string name="slide_1_title">Welcome</string>
+    <string name="slide_1_desc">DDU Connect is a platform by the students, for the students which aims at connecting people.</string>
+
+    <string name="slide_2_title">Features and Updates</string>
+    <string name="slide_2_desc">Write, Upload and Share "\n"
+	Save your favorite articles "\n"
+	Stay updated with latest happenings of DDU</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="title_activity_tand_c">Privacy Policy</string>
+    <string name="tandc_text">
+       DDUConnect Privacy Policy
+DDUConnect Team built the DDUConnect app as a Free app. This SERVICE is provided by DDUConnect Team at no cost and is intended for use as is.
+This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service.
+We will not use or share your information with anyone except as described in this Privacy Policy.
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at DDUConnect unless otherwise defined in this Privacy Policy.
+Information Collection and Use
+For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request is not used by us except for recognition of the content provided by the user.
+The app does use third party services that may collect information used to identify you.
+Link to privacy policy of third party service providers used by the app
+• Google Play Services
+• Wordpress
+Cookies
+Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device\'s internal memory.
+This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+DDUConnect Privacy Policy
+Service Providers
+We may employ third-party companies and individuals due to the following reasons:
+• To facilitate our Service;
+• To provide the Service on our behalf;
+• To perform Service-related services; or
+• To assist us in analyzing how our Service is used.
+We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+Security
+We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+Links to Other Sites
+This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+Changes to This Privacy Policy
+We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+Contact Us
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at dduconnect.com.
+    </string>
+
+    <string name="slide_5_title">Privacy Policy</string>
+    <string name="slide_5_desc">Under the mingled branches of trees.
+        The blue and bright moon is soothing my sight
+        And also taking me away from all the worries.
+        The peaceful rush of birds toward their nest
+        Seems to me like a home-coming fest.
+        This place, where I’m lying, is encircled by the calmness of paradise.
+        Also, with peace in the heart everyone looks nice and wise.
+        Enjoying the symphonic serenity everyone went calm.
+        This symphony also makes the cockles of my heart warm.
+        At the end, everyone went to sleep with peace.
+        So that tomorrow they can rise again with an ease.
+        The struggling day turned into peaceful evening and then to night.
+        With first rays of sunlight for a peaceful life again begins the fight.Under the mingled branches of trees.
+        The blue and bright moon is soothing my sight
+        And also taking me away from all the worries.
+        The peaceful rush of birds toward their nest
+        Seems to me like a home-coming fest.
+        This place, where I’m lying, is encircled by the calmness of paradise.
+        Also, with peace in the heart everyone looks nice and wise.
+        Enjoying the symphonic serenity everyone went calm.
+        This symphony also makes the cockles of my heart warm.
+        At the end, everyone went to sleep with peace.
+        So that tomorrow they can rise again with an ease.
+        The struggling day turned into peaceful evening and then to night.
+        With first rays of sunlight for a peaceful life again begins the fight.Under the mingled branches of trees.
+        The blue and bright moon is soothing my sight
+        And also taking me away from all the worries.
+        The peaceful rush of birds toward their nest
+        Seems to me like a home-coming fest.
+        This place, where I’m lying, is encircled by the calmness of paradise.
+        Also, with peace in the heart everyone looks nice and wise.
+        Enjoying the symphonic serenity everyone went calm.
+        This symphony also makes the cockles of my heart warm.
+        At the end, everyone went to sleep with peace.
+        So that tomorrow they can rise again with an ease.
+        The struggling day turned into peaceful evening and then to night.
+        With first rays of sunlight for a peaceful life again begins the fight.</string>
+
+
+    <string name="file_name_device_info" translatable="false">deviceInf.txt</string>
+    <string name="file_name_device_log" translatable="false">deviceLog.txt</string>
+    <string name="feedback_mail_subject">Feedback of %1$s</string>
+    <string name="cancel">Cancel</string>
+    <string name="Ok">OK</string>
+    <string name="your_input">Write your feedback</string>
+    <string name="send_feedback">Send</string>
+    <string name="from" translatable="false">From:</string>
+    <string name="please_write">Please write something.</string>
+    <string name="send_feedback_two">Send Feedback</string>
+    <string name="feedback">Feedback</string>
+    <string name="select_image">+ Add Screenshot</string>
+    <string name="click_again">Click again to change the image</string>
+    <string name="select_picture_title">Select Picture</string>
+    <string name="ok">OK</string>
+    <string name="system_info">System Info</string>
+    <string name="info_fedback_legal_start">"Your "</string>
+    <string name="info_fedback_legal_system_info">"system info "</string>
+    <string name="info_fedback_legal_and">"and "</string>
+    <string name="info_fedback_legal_log_data">"log data "</string>
+    <string name="info_fedback_legal_will_be_sent">will be sent to %s</string>
+    <string name="space">" "</string>
+    <string name="title_activity_about_app">AboutApp</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="nirmal_content">
+    When the leaves of autumn completely change their color, they leave their lifelong home to embark on a tough journey. Lack of food and water, no shelter and cold winter winds make their struggle all the more difficult to endure. They finally start decomposing to become a fossil. And what a transformation it undergoes- from nurturing itself to serving others. So whenever life throws lemon at you, don\'t forget that by making lemonade out of it you would serve a bigger purpose.
+    \n\n
+    DDU Connect  is a story of a sapling that germinated in the fertile soil of DDU. It  now connects all the faculties of DDU thus, celebrating the ethos of imagination, creativity and innovations. Since its inception, DDU Connect has endured many twists and turns; but, the unconditional love and support of the readers has inspired us to soar higher each year.
+    \n\n
+    Celebrating the wonderful journey of the last eight years, DDU Connect rejuvenates itself with fresh pages filled with new ideas, stories and experiences in multiple languages. Evolving from a tabloid to an online platform, it has demolished all the barriers that can keep us apart. Celebrating the happiness of togetherness, DDU Connect gifts you the evergreen pages - Writer’s Lounge, Connections and Fiction. Let the discoveries and innovations on ‘Tech it Easy’ constantly change your perceptions of the future.  DDU Connect welcomes the fresh batch of 2019 and is eager to write a new saga while creating wonderful memories.
+    Keep sending us your opinions and experiences at dduconnect@gmail.com.
+    </string>
+    <string name="from_editor_desk_str">What is that one thought which haunts you when you enter places completely swallowed in darkness? A very ‘brave’ answer would be ‘Where is the light switch?’ We make frantic attempts in search of the switch board,
+        trying to feel our way around and tossing a few things here and there on the way. Instead of being so restless, what if we take a moment, stand still for a while and let our pupils dilate and get adjusted to the dark? This acquaintance will surely make us see better and then we can easily ‘look’ for the switch. Such is the case with most of the things we go through in our life. We are so desperate looking for answers that we miss out on understanding the question. Reality hits hard when the outcomes aren’t what we expected. Maybe it’s time we start analyzing the question, maybe darkness shall reveal what brightness can’t and use that
+        to our advantage.
+        So, calm down your nerves and embrace these tough times because “Tough times don’t last, tough people do.” \n\n
+        With this semester drawing to a close, we have the last round of regulars coming up this month from Volume 7. Fasten your belts because we are about to start a swift ride of Open Letter, Fiction, ‘Tech’ It Easy, Connect-ions and Writer’s Lounge supplemented with a dramatic closure. Experience the engrossing debate in our DDU Speaks column and don’t miss out on the interesting interview of Ms. Manali Ghosh. We wish all the students luck for their upcoming exams and a memorable summer. We, as always, await your experiences and writings at dduconnect@gmail.com. Let’s bring about a small change and believe in adjusting for good!</string>
+</resources>

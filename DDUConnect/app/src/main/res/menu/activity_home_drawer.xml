@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_favorite_yellow_24dp"
+            android:title="@string/menu_favourite" />
+        <item
+            android:id="@+id/nav_academic_calender"
+            android:icon="@drawable/ic_calendar"
+            android:title="Academic Calender" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_graduation_hat_and_diploma"
+            android:title="@string/menu_convocation" />
+        <item
+            android:id="@+id/nav_meet_team"
+            android:icon="@drawable/ic_work_team"
+            android:title="@string/menu_meet_team" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_about_us"
+            android:title="@string/menu_about_us" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_contact" />
+
+    </group>
+
+
+</menu>

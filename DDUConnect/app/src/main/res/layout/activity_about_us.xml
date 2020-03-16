@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:background="#ececec">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pierfrancescosoffritti.youtubeplayer.player.YouTubePlayerView
+                android:id="@+id/youtubePlayer"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </com.pierfrancescosoffritti.youtubeplayer.player.YouTubePlayerView>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:lineSpacingExtra="5sp"
+                android:padding="20dp"
+                android:paddingBottom="60dp"
+                android:text="              DDU Connect began on 17th March, 2012 with an aim to ‘Connect’ various departments of Dharmsinh Desai University and showcasing the hidden creativity of its students. The journey began with a 16 page tabloid whose tagline was “By the students, for the students”. DDU Connect contains all the latest happenings of various departments of the university. It also contains the latest placement statistics and interviews of various eminent personalities across the country and alumni of the university. DDU Connect has grown exponentially since its launch. It held a Photography exhibition and played an active part in the University Foundation Day event, which witnessed a Guinness record being established. After evolving into a 20 page tabloid, Connect has now decided to adopt the noble idea of “GO GREEN”, under which it has become completely digital with “Inking Imaginations” as its tagline. Apart from all these, DDU Connect has also started to organize various events throughout the year. Connect with us to witness some of the University’s great moments and always stay updated about the institution."
+                android:textAlignment="center"
+                android:textColor="#111527"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/youtubePlayer" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageup"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="-0.6dp"
+            android:foreground="@drawable/path_33"
+            app:srcCompat="@drawable/transperentback" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
